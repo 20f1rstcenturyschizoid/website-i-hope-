@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(63, 113, 151);
+            font-family: Arial;
+        }
+        .box {
+            width: 350px;
+            background-color: rgb(129, 192, 239);
+            border: 3px solid black;
+            text-align: center;
+            margin: 80px auto;
+            padding: 20px;
+        }
+        input, button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div><center>
+    <b>
+    <a style="color: white" href="login.html">Log In</a> |
+    <a style="color: white" href="index.html">Homepage</a> |
+    <a style="color: white" href="contact_us.html">Contact Us</a>
+    </b>
+</center></div>
+
+<br><br>
+
+<div class="box">
+    <h2>Create Account</h2>
+    <img src="https://cdn-icons-png.freepik.com/512/6210/6210134.png" width="100">
+    <br><br>
+
+    <form>
+        <label><b>Username:</b></label><br>
+        <input type="text" id="Username" required><br><br>
+
+        <label><b>Password:</b></label><br>
+        <input type="password" id="password" required><br><br>
+
+        <label><b>Your Email:</b></label><br>
+        <input type="email" id="Mail" required><br><br>
+
+        <label><b>Your City:</b></label><br>
+        <input type="text" id="City" required><br><br>
+
+        <label><b>Address:</b></label><br>
+        <input type="text" id="address" required><br><br>
+
+        <label><b>Gender:</b></label><br>
+        <input type="radio" id="male" name="gender" value="male" required> Male<br>
+        <input type="radio" id="female" name="gender" value="female"> Female<br>
+        <input type="radio" id="unknown" name="gender" value="none"> Prefer not to say<br><br>
+
+        <label><input type="checkbox" id="agree" required> I agree to the <a href="TERMS_AND_SERVICES.html">terms and conditions</a></label><br><br>
+        <label><input type="checkbox" id="promotion"> I agree to receive special promotions or news from Batumi Transport & Trade Authority (optional)</label><br><br>
+
+        <input type="submit" value="Submit"> 
+        <input type="reset" value="Reset">
+        <button><a href="login.html" style="color:black; text-decoration:none;">Log In</a></button>
+    </form>
+</div>
+
+
+<div style="background-color:black; color:white; text-align:center; padding:10px;">
+    <p>If you're seeing this, that means you're not signed in yet.<br>
+    Please <a href="login.html" style="color:white;">log in here</a>. Unless you're making the account right now.</p>
+</div>
+
+</body>
+</html>
